@@ -3,13 +3,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header><div>Cool-E Price Calculator</div>
+        <header><h1>Cool-E Price Calculator</h1>
             <div>Weight</div>
-            <input type="text"id="weight" placeholder="weight in kg"></input>
-            <div>Pickup Ditance From Office</div>
+            <input type="text"id="weight" placeholder="weight in kg" required></input>
+            <div>Pickup Distance From Office</div>
             <input type="text" id="officeTopickup" placeholder="distance in km"></input>
             <div>Destiantion Distance From Pickup</div>
-            <input type="text" id="pickupTodestination" placeholder="distance in km"></input>
+            <input type="text" id="pickupTodestination" placeholder="distance in km" required></input>
             <div>Destination</div>
             <select id="destination">
                 <option value="None">None</option>
@@ -48,17 +48,12 @@
                 <option value="Nadda">Dokkhin Khan</option>
                 <option value="Nadda">Wari</option>
                 <option value="Nadda">Demra</option>
-                
-                
-               
-
-
             </select>
         </header>
         <section>
-            <div>Distance Charge</div>
-            <input type="text" id="distanceCharge" placeholder="distance charge"></input>
-            <div>Extra Weight Charge</div>
+            <div>Total Charge</div>
+            <input type="text" id="allCharge" placeholder="Total Charge"></input>
+            <div>Extra Charge</div>
             <input type ="text" id="extracharge" placeholder="extra charge"></input>
             <div>General Charge</div>
             <input type="text" id="totalCharge" placeholder="general charge"></input>
